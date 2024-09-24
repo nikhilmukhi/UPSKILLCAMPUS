@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALPINE RIVERHILL</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    
+    <header>
+        <nav class="navbar">
+
+            <div class="navdiv">
+
+                <div class="logo">
+                    <a style="color: white;" href="index.html">
+                        <img src="/assets/images/actual logo.png" alt="logo">
+                        <b>ALPINE RIVERHILL</b>
+                    </a>
+                </div>
+
+                <ul>
+                    <li><a style="color: white;" href="index.html"><i class="fa-solid fa-house"></i>Home</a></li>
+                    <li><a style="color: white;" href="gallery.html"><i class="fa-solid fa-image"></i>Gallery</a></li>
+                    <li><a style="color: white;" href="covid.html"><i class="fa-solid fa-virus"></i>COVID-19 Safety Practices</a></li>
+                    <li><a style="color: white;" href="offers.html"><i class="fa-solid fa-crown"></i>Offers</a></li>
+                    <li><a style="color: white;" href="testimonial.html"><i class="fa-solid fa-bell-concierge"></i>Testimonials</a></li>
+                    <li><a style="color: white;" href="about.html"><i class="fa-solid fa-circle-info"></i> About us </a></li>
+                    <li><a style="color: white;" href="contact.html"><i class="fa-solid fa-phone"></i>Contact us</a></li>
+                </ul>
+            </div>
+
+        </nav>
+
+    </header>
+
+    <section class="slider-container">
+        
+        <div class="slider-wrapper">
+
+            <div class="slider">
+
+                <div id="slider-1">
+                    <img src="/assets/images/img1.jpg" class="slider-image" alt="Image1">
+                </div>
+
+                <div id="slider-2">
+                    <img src="/assets/images/img2.jpg" class="slider-image" alt="Image2">
+                </div>
+
+                <div id="slider-3">
+                    <img src="/assets/images/img3.jpg" class="slider-image" alt="Image3">
+                </div>
+
+                <div class="slider-4">
+                    <img src="/assets/images/img4.jpg" class="slider-image" alt="Image4">
+                </div>
+
+                <div class="slider-5">
+                    <img src="/assets/images/img5.jpg" class="slider-image" alt="Image5">
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="pointer">
+            <a href="#slider-1"></a>
+            <a href="#slider-2"></a>
+            <a href="#slider-3"></a>
+            <a href="#slider-4"></a>
+            <a href="#slider-5"></a>
+        </div>
+
+        <!-- <div class="arrow">
+            
+            <div class="next-button">
+                
+            </div>
+    
+            <div class="prev-button">
+    
+            </div>
+
+        </div> -->
+        
+
+    </section>
+
+    <div id="info">
+        <h1 style="color: rgb(255, 179, 0); text-shadow: black 2px -2px 5px; font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">WELCOME TO ALPINE RIVERHILL</h1>
+        <h2>Luxury Redefined</h2>
+    </div>
+
+    <div id="line"></div>
+
+    <section class="features-container">
+
+        <div class="features-wrapper">
+            
+            <div class="features">
+               
+                <div id="item-1">
+                    <img src="assets/images/1st.png">
+                </div>
+                <div id="item-2">
+                    <img src="assets/images/2nd.png">
+                </div>
+                <div id="item-3">
+                    <img src="assets/images/3rd.png">
+                </div>
+
+            </div>
+
+            <div class="features-nav">
+                <a href="#item-1"></a>
+                <a href="#item-2"></a>
+                <a href="#item-3"></a>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="enquiry-form">
+
+        <h1>Interested to make your life memorable with Alpine Riverhill?</h1>
+        <h2>Fill the below details and our support team will contact you soon</h2>
+
+        <div class="enquiry-form-wrapper">
+            
+            <form action="#">
+                <caption class="form-caption">Create an Enquiry</caption>
+
+                <div class="name">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Full Name" required>
+                </div>
+
+                <div class="phone-guests">
+                    <div class="phone-guests-items">
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Contact Number" required>
+        
+                        <label for="guests">Number of Guests</label>
+                        <input type="number" id="guests" name="guests" min="1" placeholder="1" required>
+                    </div>
+                </div>
+        
+                <div class="dates">
+                    <label for="check-in">Check-in Date</label>
+                    <input type="date" id="check-in" name="check-in" required>
+        
+                    <label for="check-out">Check-out Date</label>
+                    <input type="date" id="check-out" name="check-out" required>
+                </div>
+        
+                <label for="amenities">Amenities:</label>
+                <div class="amenities">
+                    <input type="checkbox" id="meals" name="amenities" value="meals">
+                    <label for="meals">Meals</label>
+        
+
+                    <input type="checkbox" id="barbeque" name="amenities" value="barbeque">
+                    <label for="barbeque">Barbeque</label>
+                            
+                    
+                    <input type="checkbox" id="sheesha" name="amenities" value="sheesha">
+                    <label for="sheesha">Sheesha</label>
+                </div>
+        
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Type your message here... " required></textarea>
+        
+                <button type="submit"><i class="fa-brands fa-telegram"></i> SEND ENQUIRY</button>
+            </form>
+        </div>
+    </section>
+
+    <div id="final">
+        <h1 style="color: rgb(255, 179, 0); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top: 30px; text-shadow: black 2px -2px 5px;">BEAUTY OF ALPINE RIVERHILL</h1>
+        <h2 style="font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; margin-top: 20px">Live the moment, create memories and cherish them forever!</h2>
+    </div>
+
+    <div class="video-link">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SEadiIzqr_E?si=UrVHV7ajMNWuUj5R" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </div>
+   
+    <a href="gallery.html">
+        <button id="pics">VIEW PHOTOS <i class="fa-solid fa-angles-right"></i></button>
+    </a>
+
+    <br><br><br><br><br><br><br><br>
+    
+    <div class="waves">        
+        <div class="wave-1"></div>
+        <div class="wave-2"></div>
+        <div class="wave-3"></div>
+        <div class="wave-4"></div>
+        <div class="wave-5"></div>
+        <div class="wave-6"></div>    
+        <div class="wave-7"></div>    
+        <div class="wave-8"></div>    
+        <div class="wave-9"></div>    
+        <div class="wave-10"></div>    
+        <div class="wave-11"></div>    
+        <div class="wave-12"></div>    
+        <div class="wave-13"></div>    
+        <div class="wave-14"></div> 
+        <div class="wave-15"></div>       
+        <div class="wave-16"></div>    
+        <div class="wave-17"></div>    
+        <div class="wave-18"></div>    
+        <div class="wave-19"></div>    
+        <div class="wave-20"></div>       
+        <div class="wave-21"></div>    
+        <div class="wave-22"></div>    
+        <div class="wave-23"></div>    
+        <div class="wave-24"></div>    
+        <div class="wave-25"></div>    
+        <div class="wave-26"></div>    
+        <div class="wave-27"></div> 
+        <div class="wave-28"></div> 
+        <div class="wave-29"></div> 
+        <div class="wave-30"></div> 
+    </div>
+
+    <footer>
+        <div class="container">
+
+            
+            <div class="footer-container">
+                <h3>ALPINE RIVERHILL:</h3>
+                <p>Alpine Riverhill Villa is a modern & upscale vacation rental villa that is passionate about ‘making moments’ and recognising that small gestures make a big difference to our guests. We do ordinary things in an extraordinary way – a philosophy that has defined our brand’s success from the very start.</p>
+            </div>
+
+            <div class="footer-container">
+                <h3>QUICK LINK:</h3>
+                <a style="color: white;" href="index.html"><i class="fa-solid fa-house"></i> Home</a><br>
+                <a style="color: white;" href="gallery.html"><i class="fa-solid fa-image"></i> Gallery</a><br>
+                <a style="color: white;" href="covid.html"><i class="fa-solid fa-virus"></i> COVID-19 Safety Practices</a><br>
+                <a style="color: white;" href="offers.html"><i class="fa-solid fa-crown"></i> Offers</a><br>
+                <a style="color: white;" href="testimonial.html"><i class="fa-solid fa-bell-concierge"></i> Testimonials</a><br>
+                <a style="color: white;" href="about.html"><i class="fa-solid fa-circle-info"></i> About us </a><br>
+                <a style="color: white;" href="contact.html"><i class="fa-solid fa-phone"></i> Contact us</a><br>
+            </div>
+
+            <div class="footer-container social">
+                <h3>CONTACT US:</h3>
+                <p>Address: <br> Bungalow no. 01, River Hill Park Society, Near Sai Brooklands, Opp. Sidhu Dhaba, Takve, Old Mumbai-Pune Highway, Lonavala-410405 <br></p>
+                <p>Phone: <br> +919930247992 / +919667555554 <br></p>
+                <p style="text-underline-position: below;">Socail Links: <br> <br>
+                    <a href="https://www.facebook.com/alpine.riverhill/" style="font-size: 30px; color: white;"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/alpine.riverhill/" style="font-size: 30px; color: white;"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=919667555554" style="font-size: 30px; color: white;"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.pinterest.com/alpineriverhillvilla/" style="font-size: 30px; color: white;"><i class="fa-brands fa-pinterest"></i></a>
+                    <a href="https://www.snapchat.com/add/alpineriverhill" style="font-size: 30px; color: white;"><i class="fa-brands fa-snapchat"></i></a>
+                    <a href="https://www.youtube.com/channel/UCF9uuv6xde1mg8YmdDuP8Kg" style="font-size: 30px; color: white;"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="https://www.google.co.in/travel/hotels/alpine%20riverhill/entity/CgoIm_X7ktrajLUaEAE/overview?q=alpine%20riverhill&g2lb=2502548%2C4258168%2C4260007%2C4274032%2C4305595%2C4306835%2C4317915%2C4326765%2C4328159%2C4329288%2C4330862%2C4366684%2C4373849%2C4381263%2C4382623%2C4385383%2C4386665%2C4388729%2C4395397%2C4270859%2C4284970%2C4316256%2C4356900&hl=en&gl=in&un=1&rp=EJv1-5La2oy1GjgCQABIAQ&ictx=1&utm_campaign=sharing&utm_medium=link&utm_source=htls&ved=0CAAQ5JsGahcKEwjAy86dr6aGAxUAAAAAHQAAAAAQBA&ts=CAEaIAoCGgASGhIUCgcI6A8QBRgZEgcI6A8QBRgaGAEyAhAAKgQKABoA" style="font-size: 30px; color: white;"><i class="fa-brands fa-google"></i></a>
+                </p>
+                <br><br><br>
+            </div>
+            
+        </div>
+
+        <div class="bottom-bar">
+            <p style="padding: 1%;">© 2020 Alpine Riverhill | All Rights Reserved</p>
+        </div>
+    </footer>
+</body>
+</html>

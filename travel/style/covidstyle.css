@@ -1,0 +1,428 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: rgb(255, 179, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navdiv {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar img {
+    width: 80px;
+    vertical-align: middle;
+}
+
+.navbar b {
+    font-size: smaller;
+}
+
+.logo {
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-left: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+li {
+    display: inline;
+}
+
+li a{
+    text-decoration: none;
+    font-size: 19px;
+    margin-right: 25px;
+    background-color: rgb(255, 179, 0);
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+.message {
+    padding-top: 10%;
+    text-align: center;
+}
+
+.message h1 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(255, 179, 0);
+    text-shadow: black 2px -2px 2px;
+}
+
+.message h2 {
+    margin-top: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#line {
+    margin-top: 15px;
+    margin-left: 25%;
+    width: 8in;
+    height: 1px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.covid {
+    padding-top: 2%;
+    display: block;
+}
+
+.container-covid-wrapper {
+    display: flex;
+    padding: 1%;
+}
+
+.container-covid-wrapper img {
+    width: 100%;
+}
+
+.item-1, .item-2, .item-3 {
+    padding: 1%;
+}
+
+footer {
+    background: rgb(255, 179, 0);
+    padding-top: 50px;
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.waves {
+    display: flex;
+}
+
+.wave-1 {
+    height: 60px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-2 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-3 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-4 {
+    height: 60px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-5 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-6 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-7 {
+    height: 60px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-8 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-9 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-10 {
+    height: 60px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-11 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-12 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-13 {
+    height: 60px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-14 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-15 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-16 {
+    height: 60px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-17 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-18 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-19 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-20 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-21 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-22 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-23 {
+    height: 60px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-24 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-25 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-26 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-27 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-28 {
+    height: 60px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.wave-29 {
+    height: 100px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+.wave-30 {
+    height: 80px;
+    width: 50px;
+    background-color: rgb(255, 179, 0);
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    margin-top: auto;
+}
+
+.container {
+    width: 1140px;
+    margin: auto;
+    border-spacing: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.footer-container p{
+    width: 300px;
+    margin: auto;
+    padding: 7px;
+    cursor: text;
+}
+
+.bottom-bar {
+    height: 50px;
+    text-align: center;
+    background-color: rgb(255, 132, 0);
+}
+
+.social .fa-facebook:hover {
+    color: blue;
+}
+
+.social .fa-instagram:hover {
+    color: rgb(189, 2, 86);
+}
+
+.social .fa-whatsapp:hover {
+    color: rgb(0, 209, 0);
+}
+
+.social .fa-facebook:hover {
+    color: blue;
+}
+
+.social .fa-pinterest:hover {
+    color: red;
+}
+
+.social .fa-snapchat:hover {
+    color: yellow;
+}
+
+.social .fa-youtube:hover {
+    color: red;
+}
+
+.social .fa-google:hover {
+    color: red;
+}
